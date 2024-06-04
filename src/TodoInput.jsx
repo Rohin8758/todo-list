@@ -15,6 +15,9 @@ const TodoInput = (props) => {
                     onClick={() => { props.addList(inputText)
                     setinputText("") }}>Add</button>
             </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod autem inventore vero error numquam quo officiis, alias eveniet, ut modi distinctio libero sint dolores natus quae. Neque est hic soluta!</p>
+            </div>
         </>
     )
 }
